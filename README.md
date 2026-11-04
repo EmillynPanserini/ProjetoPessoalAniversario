@@ -1,6 +1,6 @@
 # Batata vegano 🍟💚
 
-Um presente de aniversário em HTML, CSS e JavaScript₢
+Um presente de aniversário em HTML, CSS e JavaScript
 
 ## Abrir o site
 
@@ -18,5 +18,3 @@ python3 -m http.server 8000 --bind 0.0.0.0
 - `styles.css` e `script.js`: estilos responsivos e interações compartilhadas.
 
 As animações respeitam a preferência de movimento reduzido do navegador. A segunda página também oferece um botão para pausá-las.
-
-₢
