@@ -40,7 +40,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--orange); outlin
 .button > span { font-size: 20px; line-height: 16px; }
 .button-primary { color: var(--paper); background: var(--green); min-width: 147px; }
 .button-primary:hover { background: #315f47; box-shadow: 0 5px 0 #c5cfb5; transform: translateY(-2px); }
-.button-outline { background: var(--paper); color: var(--green); border-color: #a7b29b; min-width: 132px; z-index: 20; touch-action: none; }
+.button-outline { background: #1e8048; color: #fff; border-color: #1e8048; min-width: 132px; z-index: 20; touch-action: none; }
 .button-outline.is-running { position: fixed; transition: none; box-shadow: 0 5px 16px #173e3215; }
 .answer-hint { color: #7b806e; font-size: 10px; line-height: 1.8; margin: 13px 0 0; }
 .answer-hint > span { padding-left: 4px; font-size: 15px; }
