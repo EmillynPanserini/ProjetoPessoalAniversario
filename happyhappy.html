@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#173e32">
+    <meta name="description" content="HappyHappy! Um aniversário cheio de carinho, batatas e amizade.">
+    <title>HappyHappy · Batata vegano</title>
+    <link rel="icon" href="assets/batata.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="party-page">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Batata vegano — início">
+        <img class="brand-photo" src="assets/batata.svg" alt="Ilustração provisória de uma batata" width="48" height="48">
+        <span>Batata <em>vegano</em><span class="brand-dot" aria-hidden="true">✳</span></span>
+      </a>
+      <a class="header-note back-link" href="index.html"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 19 5 5M5 19V5h14"/></svg> voltar à pergunta</a>
+    </header>
+
+    <main>
+      <section class="party-hero" aria-labelledby="party-title">
+        <canvas id="fireworks" aria-hidden="true"></canvas>
+        <div class="party-content">
+          <p class="eyebrow">OFICIALMENTE BOCÓ. E MUITO QUERIDO.</p>
+          <h1 id="party-title">Happy<span>Happy</span><span class="party-title-star" aria-hidden="true">✳</span></h1>
+          <p class="party-intro">Hoje o dia é seu, Batata.<br>Que a vida seja tão boa quanto uma porção de fritas.</p>
+
+          <div class="cake-scene" role="img" aria-label="Um bolo de aniversário girando, com velas acesas e a escrita Batata">
+            <div class="cake-shadow"></div>
+            <div class="cake-tilt">
+              <div class="cake-rotation" id="birthday-cake">
+                <div class="cake-platter"></div>
+                <div class="cake-body" id="cake-body">
+                  <div class="cake-top"></div>
+                  <div class="cake-label">Batata <span>♡</span></div>
+                </div>
+                <div class="candle candle-one"><i></i></div>
+                <div class="candle candle-two"><i></i></div>
+                <div class="candle candle-three"><i></i></div>
+              </div>
+            </div>
+            <span class="cake-note handwritten">um pedido,<br>muitas possibilidades. <span aria-hidden="true">↶</span></span>
+          </div>
+
+          <a class="button button-cream" href="#mensagem">Tem um recado pra você <span aria-hidden="true">↓</span></a>
+          <button class="motion-button" id="motion-toggle" type="button" aria-pressed="false">Pausar animações</button>
+        </div>
+        <span class="hero-side-note" aria-hidden="true">MAIS UM ANO SENDO VOCÊ. AINDA BEM.</span>
+      </section>
+
+      <section class="message-section" id="mensagem" aria-labelledby="message-title">
+        <div class="message-decoration fries fries-one" aria-hidden="true">🍟</div>
+        <div class="message-decoration fries fries-two" aria-hidden="true">🍟</div>
+        <div class="message-decoration fries fries-three" aria-hidden="true">🍟</div>
+        <div class="message-decoration heart heart-one" aria-hidden="true">💚</div>
+        <div class="message-decoration heart heart-two" aria-hidden="true">💚</div>
+        <div class="message-decoration heart heart-three" aria-hidden="true">💚</div>
+        <div class="letter">
+          <p class="eyebrow">UM RECADINHO DE CORAÇÃO</p>
+          <h2 id="message-title">Pra você,<br><em>meu querido Batata.</em></h2>
+          <div class="letter-rule" aria-hidden="true">✳</div>
+          <div class="letter-body">
+            <p>Parabéns, espero que seja muito feliz, possa conquistar tudo que deseja, ter muitas realizações.</p>
+            <p>Por favor, deixe de ser vegano, vamos ta querendo me da uma cunhada pelo amor de Deus. Quero muito ser madrinha de casamento, se eu n for, vamos sair no soco.</p>
+            <p>Te desejo todo carinho do mundo e muito sucesso, conte comigo sempre e nossa amizade vai prosperar muito</p>
+          </div>
+          <p class="letter-signoff">Com todo carinho (e umas ameaças),<br><span class="handwritten">Peixinho ♡</span></p>
+          <span class="letter-ps">P.S.: o bolo pode até ser vegano. A zoeira não tem restrições.</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© 2026 - Peixinho (Emillyn) - Todos os direitos reservados.</span><a class="footer-love" href="#party-title">mais uma volta no bolo <span aria-hidden="true">↑</span></a></footer>
+  </body>
+</html>
